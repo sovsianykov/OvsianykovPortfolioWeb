@@ -161,6 +161,7 @@ header {
             text-align: left;
             color: #010101; }
     header .main .main2 {
+      z-index: 5;
       width: 1140px;
       height: 568px;
       margin-top: 280px;
@@ -309,7 +310,7 @@ header {
   padding-top: 80px;
   position: relative; }
   .sectionB h3 {
-    width: 352px;
+    width: 70%;
     height: 38px;
     font-family: OpenSans;
     font-size: 50px;
@@ -324,7 +325,8 @@ header {
     margin-top: 60px;
     height: 2px; }
   .sectionB h4 {
-    margin-top: 30px; }
+    margin-top: 30px;
+    width: 70%; }
   .sectionB .smltxt {
     margin-top: 30px;
     padding-top: 20px;
