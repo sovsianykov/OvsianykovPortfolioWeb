@@ -445,6 +445,69 @@ header {
     left: 0;
     overflow: hidden; }
 
+.sectionC {
+  width: 100%;
+  min-height: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column; }
+  .sectionC h3 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    height: 38px;
+    font-family: OpenSans;
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.6;
+    letter-spacing: -2px;
+    text-align: center;
+    color: #000000; }
+  .sectionC hr {
+    width: 300px;
+    height: 2px;
+    background: #000; }
+  .sectionC .contentwrap {
+    margin-top: 60px;
+    display: flex;
+    width: 70%;
+    min-height: 300px;
+    justify-content: space-between; }
+    .sectionC .contentwrap .clmn {
+      width: 17%;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      flex-direction: column; }
+      .sectionC .contentwrap .clmn img {
+        display: block;
+        width: 150px;
+        height: 150px; }
+      .sectionC .contentwrap .clmn h4 {
+        margin-top: 30px;
+        height: 25px;
+        font-family: OpenSans;
+        font-size: 20px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: -0.96px;
+        color: #000000; }
+      .sectionC .contentwrap .clmn p {
+        padding: 10px;
+        font-family: Prata;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.88;
+        letter-spacing: 0.64px;
+        text-align: left;
+        color: #000000; }
+
 @font-face {
   font-family: GothamPro;
   src: url(../fonts/gothampro-black.ttf); }
