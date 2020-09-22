@@ -392,7 +392,7 @@ header {
     display: flex;
     justify-content: space-between; }
     .sectionB .boxwrap2 h4 {
-      width: 60%;
+      width: 80%;
       margin-bottom: 10px;
       height: 25px;
       font-family: OpenSans;
@@ -403,9 +403,10 @@ header {
       line-height: 1.25;
       letter-spacing: -0.96px;
       text-align: center;
-      color: #000000; }
+      color: #000000;
+      padding: 0; }
     .sectionB .boxwrap2 p {
-      margin: 30px;
+      margin-top: 60px;
       font-family: Prata;
       font-size: 16px;
       font-weight: normal;
@@ -417,13 +418,13 @@ header {
       color: #000000; }
     .sectionB .boxwrap2 .boxD {
       width: 32%;
-      height: 363px;
+      min-height: 363px;
       align-items: center;
       background-color: #f3dac4;
       position: relative;
       display: flex;
       flex-direction: column;
-      padding: 20px; }
+      padding: 10px; }
       .sectionB .boxwrap2 .boxD .arr {
         position: absolute;
         right: 10px;
@@ -434,11 +435,12 @@ header {
           width: 100%; }
   .sectionB .sidepic {
     top: 155px;
-    z-index: 4;
-    width: 398px;
+    z-index: 1;
+    width: 15%;
     height: 1190px;
     position: absolute;
-    left: 0; }
+    left: 0;
+    overflow: hidden; }
 
 @font-face {
   font-family: GothamPro;
