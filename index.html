@@ -7,6 +7,7 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
     <title>Verin</title>
 </head>
 <body>
@@ -206,8 +207,58 @@ We keep the focus on IT specialists only.
         </div>
     </div>
 </div>
+<div class="sectionD">
+    <h3>PORTFOLIO</h3>
+    <hr>
+    <p id="upp">
+        Managers, candidates, and companies all over the world seek to find reliable, consistent and convenient recruitment.
+        Verin Recruitment provides exactly that.
+        Working tirelessly to maintain relationships with managers and candidates, Verin Recruitment has set a goal
+        to build a better recruitment service.
+    </p>
+    <div class="mainwr">
+
+        <div class="wrap">
 
 
+            <div class="picslide" id="one"><div class="picsl"><img src="img/OlgaMay_Pic.jpg" alt="">
+            </div>
+
+            </div>
+            <div class="picslide" ><div class="picsl"><img src="img/VasKamyshanov_Pic.jpg" alt=""></div></div>
+            <div class="picslide" ><div class="picsl"><img src="img/TimurEgorov_Pic.jpg" alt=""></div></div>
+            <div class="picslide" ><div class="picsl"><img src="img/StanislavZemlyakov_Pic1.png" alt=""></div></div>
+            <div class="picslide" ><div class="picsl"><img src="img/BogdanOsynnyi_Pic.jpg" alt=""></div></div>
+            <div class="picslide" ><div class="picsl"><img src="img/Bilenkis_Pic.jpg" alt=""></div></div>
+
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script>
+    let h = 1;
+    let move =  setInterval(function () {
+        $('.picslide').hover(function () {
+            h = 0;
+        });
+
+        if (h) {
+            let first = $('.picslide:first');
+            let last = $('.picslide:last')
+            $(last).after(first);
+        }
+        $('.picslide').mouseleave(function () {
+            h = 1;
+        });
+
+
+    }, 3000 );
+
+</script>
  </body>
 
 
